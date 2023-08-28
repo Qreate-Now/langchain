@@ -5,7 +5,7 @@ description = "Building applications with LLMs through composability"
 authors = []
 license = "MIT"
 readme = "README.md"
-repository = "git+https://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@github.com/Qreate-Now/langchain@lujapak/qre-121-create-own-version-of-library"
+repository = "git+https://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@github.com/Qreate-Now/langchain"
 
 [tool.poetry.scripts]
 langchain-server = "langchain.server:main"
