@@ -2,10 +2,10 @@
 name = "langchain-qreate"
 version = "0.0.1"
 description = "LangChain qreate"
-authors = [Qreate]
+authors = []
 license = "MIT"
 readme = "README.md"
-repository = "https://github.com/Qreate-Now/langchain"
+repository = "git+https://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@github.com/Qreate-Now/langchain.git@lujapak/qre-121-create-own-version-of-library"
 
 
 [tool.poetry.dependencies]
