@@ -32,6 +32,9 @@ nbdoc = "^0.0.82"
 [tool.poetry.group.codespell.dependencies]
 codespell = "^2.2.0"
 
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
 
 [tool.codespell]
 skip = '.git,*.pdf,*.svg,*.pdf,*.yaml,*.ipynb,poetry.lock,*.min.js,*.css,package-lock.json,example_data,_dist,examples'
@@ -41,9 +44,3 @@ ignore-regex = '.*(Stati Uniti|Tense=Pres).*'
 # aapply - async apply
 # unsecure - typo but part of API, decided to not bother for now
 ignore-words-list = 'momento,collison,ned,foor,reworkd,parth,whats,aapply,mysogyny,unsecure,damon'
-###################################################################################################
-
-[project]
-name = "langchain-qreate"
-version = "0.1.0"
-description = "langchain-qreate"

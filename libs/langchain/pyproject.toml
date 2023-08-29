@@ -360,8 +360,8 @@ omit = [
 ]
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
 
 [tool.pytest.ini_options]
 # --strict-markers will raise errors on unknown marks.
@@ -389,8 +389,3 @@ ignore-regex = '.*(Stati Uniti|Tense=Pres).*'
 # aapply - async apply
 # unsecure - typo but part of API, decided to not bother for now
 ignore-words-list = 'momento,collison,ned,foor,reworkd,parth,whats,aapply,mysogyny,unsecure,damon'
-
-[project]
-name = "langchain"
-version = "0.1.0"
-description = "langchain-qreate"
