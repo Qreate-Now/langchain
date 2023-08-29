@@ -389,3 +389,8 @@ ignore-regex = '.*(Stati Uniti|Tense=Pres).*'
 # aapply - async apply
 # unsecure - typo but part of API, decided to not bother for now
 ignore-words-list = 'momento,collison,ned,foor,reworkd,parth,whats,aapply,mysogyny,unsecure,damon'
+
+[project]
+name = "langchain"
+version = "0.1.0"
+description = "langchain-qreate"

@@ -41,8 +41,27 @@ ignore-regex = '.*(Stati Uniti|Tense=Pres).*'
 # aapply - async apply
 # unsecure - typo but part of API, decided to not bother for now
 ignore-words-list = 'momento,collison,ned,foor,reworkd,parth,whats,aapply,mysogyny,unsecure,damon'
+###################################################################################################
 
 [project]
 name = "langchain-qreate"
 version = "0.1.0"
 description = "langchain-qreate"
+
+dependencies = [
+  "langchain @ git+file:///home/user/projects/MyProject",
+  "autodoc_pydantic >= 1.8.0",
+  "myst_parser >= 0.18.1",
+  "nbsphinx >= 0.8.9",
+  "sphinx >= 4.5.0",
+  "sphinx-autobuild >= 2021.3.14",
+  "sphinx_book_theme >= 0.3.3",
+  "sphinx_rtd_theme >= 1.0.0",
+  "sphinx-typlog-theme >= 0.8.0",
+  "sphinx-panels >= 0.6.0",
+  "toml >= 0.10.2",
+  "myst-nb >= 0.17.1",
+  "linkchecker >= 10.2.1",
+  "sphinx-copybutton >= 0.5.1",
+  "nbdoc >= 0.0.82"
+]
